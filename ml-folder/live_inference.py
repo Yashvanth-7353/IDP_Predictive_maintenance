@@ -1,6 +1,3 @@
-print("Script is alive! Loading libraries...")
-
-
 import firebase_admin
 from firebase_admin import credentials, db
 import numpy as np
@@ -68,3 +65,7 @@ while True:
         print(f"{status_icon} MSE: {mse:.4f} | Anomaly: {is_anomaly} | Root Cause: {root_cause}")
 
     time.sleep(2)
+
+
+
+# 18.708122950154074
