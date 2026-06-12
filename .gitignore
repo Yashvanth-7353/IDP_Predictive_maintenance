@@ -1,0 +1,72 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.local
+
+# Firebase Service Account Keys
+*-firebase-adminsdk-*.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# Machine Learning Artifacts
+# =========================
+# Uncomment these if you DON'T want to commit them
+# *.h5
+# *.keras
+# *.pkl
+# *.joblib
+# *.onnx
+
+# =========================
+# Next.js
+# =========================
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env*.local
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Misc
+# =========================
+coverage/
+.cache/
